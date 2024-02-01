@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="QTrip Automation ">
+  <test thread-count="5" name="API Automation">
+    <classes>
+	  <class name="Endpoints.Register_Test"/>
+	  <class name="Endpoints.Login_Test"/>
+      <class name="Endpoints.GetCity_Test"/>
+      <class name="Endpoints.GetAdventuredetails_Test"/>
+      <class name="Endpoints.Getadventure_Test"/>
+      <class name="Endpoints.Createreservation"/>
+      <class name="Endpoints.GetReservation"/>
+      <class name="Endpoints.Deletereservation"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- QTrip Automation  -->

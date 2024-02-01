@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="21" passed="21" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-01-31T22:50:13 IST" name="QTrip Automation " finished-at="2024-01-31T22:50:39 IST" duration-ms="25986">
+    <groups>
+    </groups>
+    <test started-at="2024-01-31T22:50:13 IST" name="API Automation" finished-at="2024-01-31T22:50:39 IST" duration-ms="25986">
+      <class name="Endpoints.Createreservation">
+        <test-method is-config="true" signature="setup()[pri:0, instance:Endpoints.Createreservation@503d687a]" started-at="2024-01-31T22:50:33 IST" name="setup" finished-at="2024-01-31T22:50:33 IST" duration-ms="118" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="createReservation()[pri:0, instance:Endpoints.Createreservation@503d687a]" started-at="2024-01-31T22:50:33 IST" name="createReservation" description="Create Reservation With Valid Details::" finished-at="2024-01-31T22:50:34 IST" duration-ms="1102" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createReservation -->
+        <test-method signature="createReservation_With_Invalid_Data()[pri:0, instance:Endpoints.Createreservation@503d687a]" started-at="2024-01-31T22:50:34 IST" name="createReservation_With_Invalid_Data" description="Create Reservation With Invalid Details::" finished-at="2024-01-31T22:50:35 IST" duration-ms="1100" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createReservation_With_Invalid_Data -->
+      </class> <!-- Endpoints.Createreservation -->
+      <class name="Endpoints.Login_Test">
+        <test-method is-config="true" signature="setup()[pri:0, instance:Endpoints.Login_Test@865dd6]" started-at="2024-01-31T22:50:21 IST" name="setup" finished-at="2024-01-31T22:50:21 IST" duration-ms="28" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="loginIntoQtrip()[pri:0, instance:Endpoints.Login_Test@865dd6]" started-at="2024-01-31T22:50:21 IST" name="loginIntoQtrip" description="Login with Valid Credentials" finished-at="2024-01-31T22:50:22 IST" duration-ms="1054" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginIntoQtrip -->
+        <test-method signature="loginIntoQtrip1()[pri:0, instance:Endpoints.Login_Test@865dd6]" started-at="2024-01-31T22:50:22 IST" name="loginIntoQtrip1" description="Login with Invalid Credentials" finished-at="2024-01-31T22:50:23 IST" duration-ms="1069" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginIntoQtrip1 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Endpoints.Login_Test@865dd6]" started-at="2024-01-31T22:50:23 IST" name="tearDown" finished-at="2024-01-31T22:50:23 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Endpoints.Login_Test -->
+      <class name="Endpoints.GetCity_Test">
+        <test-method is-config="true" signature="setup()[pri:0, instance:Endpoints.GetCity_Test@4da4253]" started-at="2024-01-31T22:50:23 IST" name="setup" finished-at="2024-01-31T22:50:23 IST" duration-ms="15" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="getAllCity()[pri:0, instance:Endpoints.GetCity_Test@4da4253]" started-at="2024-01-31T22:50:23 IST" name="getAllCity" description="Verify All City Listed" finished-at="2024-01-31T22:50:24 IST" duration-ms="986" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAllCity -->
+        <test-method signature="getAllCity1()[pri:0, instance:Endpoints.GetCity_Test@4da4253]" started-at="2024-01-31T22:50:24 IST" name="getAllCity1" description="Search for a Specify City" finished-at="2024-01-31T22:50:25 IST" duration-ms="1014" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAllCity1 -->
+        <test-method signature="getAllCity3()[pri:0, instance:Endpoints.GetCity_Test@4da4253]" started-at="2024-01-31T22:50:25 IST" name="getAllCity3" description="Search for a Invalid City" finished-at="2024-01-31T22:50:26 IST" duration-ms="901" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAllCity3 -->
+        <test-method signature="getAllCity4()[pri:0, instance:Endpoints.GetCity_Test@4da4253]" started-at="2024-01-31T22:50:26 IST" name="getAllCity4" description="search query length &lt;3" finished-at="2024-01-31T22:50:27 IST" duration-ms="1051" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAllCity4 -->
+      </class> <!-- Endpoints.GetCity_Test -->
+      <class name="Endpoints.Deletereservation">
+        <test-method is-config="true" signature="setup()[pri:0, instance:Endpoints.Deletereservation@2abf4075]" started-at="2024-01-31T22:50:37 IST" name="setup" finished-at="2024-01-31T22:50:37 IST" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="deleteReservation()[pri:0, instance:Endpoints.Deletereservation@2abf4075]" started-at="2024-01-31T22:50:37 IST" name="deleteReservation" description="Delete a Valid Researvtion" finished-at="2024-01-31T22:50:38 IST" duration-ms="1115" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteReservation -->
+        <test-method signature="deleteReservation_Invalid()[pri:0, instance:Endpoints.Deletereservation@2abf4075]" started-at="2024-01-31T22:50:38 IST" name="deleteReservation_Invalid" description="Delete a Invalid Researvtion" finished-at="2024-01-31T22:50:39 IST" duration-ms="929" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteReservation_Invalid -->
+      </class> <!-- Endpoints.Deletereservation -->
+      <class name="Endpoints.GetReservation">
+        <test-method is-config="true" signature="setup()[pri:0, instance:Endpoints.GetReservation@6a370f4]" started-at="2024-01-31T22:50:35 IST" name="setup" finished-at="2024-01-31T22:50:35 IST" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="getReseravtion()[pri:0, instance:Endpoints.GetReservation@6a370f4]" started-at="2024-01-31T22:50:35 IST" name="getReseravtion" finished-at="2024-01-31T22:50:36 IST" duration-ms="970" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getReseravtion -->
+        <test-method signature="getReseravtion_with_Invalid_Dtails()[pri:0, instance:Endpoints.GetReservation@6a370f4]" started-at="2024-01-31T22:50:36 IST" name="getReseravtion_with_Invalid_Dtails" finished-at="2024-01-31T22:50:37 IST" duration-ms="971" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getReseravtion_with_Invalid_Dtails -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:Endpoints.GetReservation@6a370f4]" started-at="2024-01-31T22:50:37 IST" name="afterClass" finished-at="2024-01-31T22:50:37 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- Endpoints.GetReservation -->
+      <class name="Endpoints.GetAdventuredetails_Test">
+        <test-method is-config="true" signature="setup()[pri:0, instance:Endpoints.GetAdventuredetails_Test@3972a855]" started-at="2024-01-31T22:50:27 IST" name="setup" finished-at="2024-01-31T22:50:27 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="search_For_Adventure()[pri:0, instance:Endpoints.GetAdventuredetails_Test@3972a855]" started-at="2024-01-31T22:50:27 IST" name="search_For_Adventure" description="Search for Adventure with valid Id" finished-at="2024-01-31T22:50:28 IST" duration-ms="1051" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- search_For_Adventure -->
+        <test-method signature="search_For_Adventure_with_InvalidID()[pri:0, instance:Endpoints.GetAdventuredetails_Test@3972a855]" started-at="2024-01-31T22:50:28 IST" name="search_For_Adventure_with_InvalidID" description="Search for Adventure with Invalid Id" finished-at="2024-01-31T22:50:29 IST" duration-ms="1006" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- search_For_Adventure_with_InvalidID -->
+      </class> <!-- Endpoints.GetAdventuredetails_Test -->
+      <class name="Endpoints.Register_Test">
+        <test-method is-config="true" signature="setup()[pri:0, instance:Endpoints.Register_Test@1649b0e6]" started-at="2024-01-31T22:50:13 IST" name="setup" finished-at="2024-01-31T22:50:14 IST" duration-ms="596" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="createUser()[pri:0, instance:Endpoints.Register_Test@1649b0e6]" started-at="2024-01-31T22:50:14 IST" name="createUser" description="create New User" finished-at="2024-01-31T22:50:18 IST" duration-ms="4267" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createUser -->
+        <test-method signature="createUserPwd()[pri:0, instance:Endpoints.Register_Test@1649b0e6]" started-at="2024-01-31T22:50:18 IST" name="createUserPwd" description="create New User With Password less that 6 charactr" finished-at="2024-01-31T22:50:19 IST" duration-ms="1160" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createUserPwd -->
+        <test-method signature="createUserWithExistingEmail()[pri:0, instance:Endpoints.Register_Test@1649b0e6]" started-at="2024-01-31T22:50:19 IST" name="createUserWithExistingEmail" description="create New User With Existing Email" finished-at="2024-01-31T22:50:21 IST" depends-on-methods="Endpoints.Register_Test.createUser" duration-ms="1169" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createUserWithExistingEmail -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Endpoints.Register_Test@1649b0e6]" started-at="2024-01-31T22:50:21 IST" name="tearDown" finished-at="2024-01-31T22:50:21 IST" duration-ms="16" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Endpoints.Register_Test -->
+      <class name="Endpoints.Getadventure_Test">
+        <test-method is-config="true" signature="setup()[pri:0, instance:Endpoints.Getadventure_Test@62e7f11d]" started-at="2024-01-31T22:50:29 IST" name="setup" finished-at="2024-01-31T22:50:29 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="getAdventureDetails()[pri:0, instance:Endpoints.Getadventure_Test@62e7f11d]" started-at="2024-01-31T22:50:29 IST" name="getAdventureDetails" description="Search AdventureDetais for a city" finished-at="2024-01-31T22:50:30 IST" duration-ms="1160" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAdventureDetails -->
+        <test-method signature="getAdventureDetails_With_Adventure_name()[pri:0, instance:Endpoints.Getadventure_Test@62e7f11d]" started-at="2024-01-31T22:50:30 IST" name="getAdventureDetails_With_Adventure_name" description="Search AdventureDetais for a city and Advanture Name" finished-at="2024-01-31T22:50:31 IST" duration-ms="1090" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAdventureDetails_With_Adventure_name -->
+        <test-method signature="getAdventureDetails_With_Invalid_City()[pri:0, instance:Endpoints.Getadventure_Test@62e7f11d]" started-at="2024-01-31T22:50:31 IST" name="getAdventureDetails_With_Invalid_City" description="Search AdventureDetais for a Invalid city" finished-at="2024-01-31T22:50:32 IST" duration-ms="914" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAdventureDetails_With_Invalid_City -->
+        <test-method signature="getAdventureDetails_With_Invalid_City_And_Adventure()[pri:0, instance:Endpoints.Getadventure_Test@62e7f11d]" started-at="2024-01-31T22:50:32 IST" name="getAdventureDetails_With_Invalid_City_And_Adventure" description="Search AdventureDetais for a Invalid city with Adventure Details" finished-at="2024-01-31T22:50:33 IST" duration-ms="984" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAdventureDetails_With_Invalid_City_And_Adventure -->
+        <test-method is-config="true" signature="afterClassMethod()[pri:0, instance:Endpoints.Getadventure_Test@62e7f11d]" started-at="2024-01-31T22:50:33 IST" name="afterClassMethod" finished-at="2024-01-31T22:50:33 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClassMethod -->
+      </class> <!-- Endpoints.Getadventure_Test -->
+    </test> <!-- API Automation -->
+  </suite> <!-- QTrip Automation  -->
+</testng-results>
